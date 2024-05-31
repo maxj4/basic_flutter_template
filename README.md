@@ -4,6 +4,7 @@ A basic Flutter project to serve as a starting point for new Apps. This template
 
 Currently included packages:
 - [intl](https://pub.dev/packages/intl)
+- [go_router](https://pub.dev/packages/go_router)
 
 ## Internationalization (i18n & l10n)
 
@@ -15,6 +16,10 @@ With the given extension on `BuildContext` (see `lib/utils/extensions/buildconte
 ```dart
 Text(context.loc.helloWorld('Flutter'))
 ```
+
+## Navigation (go_router)
+
+[go_router](https://pub.dev/packages/go_router) is used for navigation. It is set up in `lib/router_config.dart`. The routes are stored in `lib/constants.dart`. For an example of nested navigation see the comments in `lib/router_config.dart`. 
 
 
 

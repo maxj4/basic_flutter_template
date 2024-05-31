@@ -1,3 +1,4 @@
+import 'package:basic_flutter_template/router_config.dart';
 import 'package:basic_flutter_template/utils/extensions/buildcontext/loc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -11,13 +12,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
       title: 'Basic Flutter Template',
       debugShowCheckedModeBanner: false,
+      // l10n
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      locale: Locale('en'), // Remove this to use device locale
-      home: MyHomePage(),
+      locale: const Locale('en'), // Remove this to use device locale
+      // go_router
+      routerConfig: router,
     );
   }
 }
