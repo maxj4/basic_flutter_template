@@ -1,16 +1,20 @@
 # basic_flutter_template
 
-A new Flutter project.
+A basic Flutter project to serve as a starting point for new Apps. This template is set up with several usseful dependencies.
 
-## Getting Started
+Currently included packages:
+- [intl](https://pub.dev/packages/intl)
 
-This project is a starting point for a Flutter application.
+## Internationalization (i18n & l10n)
 
-A few resources to get you started if this is your first Flutter project:
+This template uses the [intl](https://pub.dev/packages/intl) package for translations.
+The translation files are located at `lib/l10n/`. Currently German (`de`) and English (`en`) are supported. To add more languages, just add a corresponding `app_<language_code>.arb` file and add the language code to the `CFBundleLocalizations` to the `info.plist` file (iOS-specific). Remember to run `flutter pub get` after you've added new translation keys or files to make sure everything is generated.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+With the given extension on `BuildContext` (see `lib/utils/extensions/buildcontext/loc.dart`) you can then use your translation keys as follows:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+Text(context.loc.helloWorld('Flutter'))
+```
+
+
+
