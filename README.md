@@ -5,6 +5,7 @@ A basic Flutter project to serve as a starting point for new Apps. This template
 Currently included packages:
 - [intl](https://pub.dev/packages/intl)
 - [go_router](https://pub.dev/packages/go_router)
+- [provider](https://pub.dev/packages/provider)
 
 ## Internationalization (i18n & l10n)
 
@@ -21,5 +22,6 @@ Text(context.loc.helloWorld('Flutter'))
 
 [go_router](https://pub.dev/packages/go_router) is used for navigation. It is set up in `lib/router_config.dart`. The routes are stored in `lib/constants.dart`. For an example of nested navigation see the comments in `lib/router_config.dart`. 
 
+## State Management (provider)
 
-
+[provider](https://pub.dev/packages/provider) is used for simple state management. Two `providers` are currently implemented: `ThemeProvider` and `LocaleProvider` for easy toggling of the theme and locale. 

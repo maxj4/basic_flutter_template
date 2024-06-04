@@ -8,5 +8,7 @@
             "example": "Max"
         }
       }
-    }
+    },
+    "toggleLocale": "Toggle Locale",
+    "toggleTheme": "Toggle Theme"
   }
