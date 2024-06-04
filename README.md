@@ -1,11 +1,12 @@
 # basic_flutter_template
 
-A basic Flutter project to serve as a starting point for new Apps. This template is set up with several usseful dependencies.
+A basic Flutter project to serve as a starting point for new Apps. This template is set up with several useful dependencies.
 
 Currently included packages:
 - [intl](https://pub.dev/packages/intl)
 - [go_router](https://pub.dev/packages/go_router)
 - [provider](https://pub.dev/packages/provider)
+- [Shared preferences](https://pub.dev/packages/shared_preferences)
 
 ## Internationalization (i18n & l10n)
 
@@ -25,3 +26,7 @@ Text(context.loc.helloWorld('Flutter'))
 ## State Management (provider)
 
 [provider](https://pub.dev/packages/provider) is used for simple state management. Two `providers` are currently implemented: `ThemeProvider` and `LocaleProvider` for easy toggling of the theme and locale. 
+
+## Persistent Storage (Shared preferences)
+
+For persistance of simple data (i.e. key-value pairs) [Shared preferences](https://pub.dev/packages/shared_preferences) are used. Is is used in `ThemeProvider` and `LocaleProvider` to store the selected values across app restarts.
