@@ -1,5 +1,7 @@
 {
     "helloWorld": "Hallo Welt von {name}!",
     "toggleLocale": "Sprache ändern",
-    "toggleTheme": "Theme ändern"
+    "toggleTheme": "Theme ändern",
+    "navExampleGo": "Navigationsbeispiel",
+    "navExampleBack": "Zurück"
 }

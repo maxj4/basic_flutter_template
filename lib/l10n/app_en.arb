@@ -10,5 +10,7 @@
       }
     },
     "toggleLocale": "Toggle Locale",
-    "toggleTheme": "Toggle Theme"
+    "toggleTheme": "Toggle Theme",
+    "navExampleGo": "Navigation Example",
+    "navExampleBack": "Go Back"
   }
