@@ -1,11 +1,14 @@
 import 'package:basic_flutter_template/providers/locale_provider.dart';
 import 'package:basic_flutter_template/providers/theme_provider.dart';
 import 'package:basic_flutter_template/router_config.dart';
+import 'package:basic_flutter_template/services/notification_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  NotificationService.initialize();
   runApp(
     MultiProvider(
       providers: [

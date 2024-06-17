@@ -12,5 +12,8 @@
     "toggleLocale": "Toggle Locale",
     "toggleTheme": "Toggle Theme",
     "navExampleGo": "Navigation Example",
-    "navExampleBack": "Go Back"
+    "navExampleBack": "Go Back",
+    "notifExample": "Send Notification",
+    "notifTitle": "Notification Example",
+    "notifBody": "This is an example Notification."
   }

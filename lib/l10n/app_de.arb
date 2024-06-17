@@ -3,5 +3,8 @@
     "toggleLocale": "Sprache ändern",
     "toggleTheme": "Theme ändern",
     "navExampleGo": "Navigationsbeispiel",
-    "navExampleBack": "Zurück"
+    "navExampleBack": "Zurück",
+    "notifExample": "Benachrichtigung senden",
+    "notifTitle": "Beispielbenachrichtigung",
+    "notifBody": "Das ist eine Beispielbenachrichtigung."
 }

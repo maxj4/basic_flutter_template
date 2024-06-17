@@ -7,6 +7,7 @@ Currently included packages:
 - [go_router](https://pub.dev/packages/go_router)
 - [provider](https://pub.dev/packages/provider)
 - [Shared preferences](https://pub.dev/packages/shared_preferences)
+- [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications)
 
 ## Internationalization (i18n & l10n)
 
@@ -30,3 +31,10 @@ Text(context.loc.helloWorld('Flutter'))
 ## Persistent Storage (Shared preferences)
 
 For persistance of simple data (i.e. key-value pairs) [Shared preferences](https://pub.dev/packages/shared_preferences) are used. Is is used in `ThemeProvider` and `LocaleProvider` to store the selected values across app restarts.
+
+## Notifications (flutter_local_notifications)
+
+> [!NOTE]  
+> This is currently only implemented for Android! Any contributions/PRs enabling this for iOS and other platforms would be highly appreciated.
+
+[flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) are used to display notifications on the device. The `NotificationService` initializes the NotificationPlugin and sends/shows notifications. 
